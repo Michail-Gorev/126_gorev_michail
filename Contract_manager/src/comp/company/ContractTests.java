@@ -127,7 +127,7 @@ public class ContractTests extends Assert {
         payments.add(200);
         payments.add(300);
 
-        assertArrayEquals(payments.toArray(),contractManager.getContracts().get("1").getListOfDocs());
+        assertArrayEquals(payments.toArray(),contractManager.getContracts().get("1").getListOfDocs().toArray());
     }
 
 }

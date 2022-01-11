@@ -1,7 +1,8 @@
 package comp.company;
 
 import java.util.HashMap;
-
+import java.util.ArrayList;
+import java.util.List;
 public class contract {
     private String date;
     private HashMap<Integer, document> document;
@@ -25,6 +26,14 @@ public class contract {
     }
     public HashMap<Integer, document> getDocument(){
         return document;
+    }
+    public List<Integer> getListOfDocs() {
+        List<Integer> payments = new ArrayList();
+        for(document Doc : document.values()){
+            payments.add(Doc.getSum());
+        }
+
+        return payments;
     }
 
 }
