@@ -1,14 +1,15 @@
 package comp.company;
 
-import java.util.HashMap;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 public class manager {
 
-    private HashMap<String, contract> contracts;
+    private HashMap<String,contract> contracts;
 
-    private manager() {
+    private manager(){
         contracts = new HashMap<>();
     }
 
@@ -21,30 +22,32 @@ public class manager {
     }
 
     public void addContract(String number, String date) {
-        contracts.put(number, new contract(date));
+        contracts.put(number,new contract(date));
     }
 
-    public HashMap<String, contract> getContracts() {
-        {
-            return contracts;
-        }
+    public HashMap<String,contract> getContracts() {
+        return contracts;
     }
+
     public void registerPaymentDocument(int sum, int paymentDocumentNumber, DocumentType paymentType,
                                         String contractNumber, String date) {
         contracts.get(contractNumber).registerPaymentDocument(sum,paymentDocumentNumber,paymentType,date);
     }
-    public List<Integer> getAll() {
+
+    public List<Integer> getAllDocs() {
         List<Integer> payments = new ArrayList();
         for(contract contract : contracts.values()){
-            for(document paymentDoc : contract.getDocument().values())
+            for(document paymentDoc : contract.getPaymentDocuments().values())
                 payments.add(paymentDoc.getSum());
         }
 
         return payments;
     }
+
     public void deleteDoc(int paymentDocumentNum, String contractNum, String paymentDate) {
-        contracts.get(contractNum).getDocument().remove(paymentDocumentNum);
+        contracts.get(contractNum).getPaymentDocuments().remove(paymentDocumentNum);
     }
+
     public HashMap<String, Integer> getAllContractsWithPay() {
         HashMap<String,Integer> contractsWithPayments = new HashMap();
         for (Map.Entry<String,contract> entry: contracts.entrySet()){
