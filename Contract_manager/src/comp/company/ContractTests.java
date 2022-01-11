@@ -2,11 +2,11 @@ package comp.company;
 
 
 import org.junit.*;
-
-import static comp.company.DocumentType.*;
-
 import java.util.ArrayList;
 import java.util.List;
+import static comp.company.DocumentType.*;
+
+
 public class ContractTests extends Assert {
 
     @Test
@@ -82,6 +82,7 @@ public class ContractTests extends Assert {
         payments.add(50);
         payments.add(70);
 
-        assertArrayEquals(payments,contractManager.getAll());
+        assertArrayEquals(payments.toArray(),contractManager.getAll().toArray());
     }
+
 }

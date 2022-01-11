@@ -23,5 +23,8 @@ public class contract {
     public int getSumOfPayments() {
         return sumOfPayments;
     }
+    public HashMap<Integer, document> getDocument(){
+        return document;
+    }
 
 }
