@@ -42,4 +42,7 @@ public class manager {
 
         return payments;
     }
+    public void deleteDoc(int paymentDocumentNum, String contractNum, String paymentDate) {
+        contracts.get(contractNum).getDocument().remove(paymentDocumentNum);
+    }
 }
