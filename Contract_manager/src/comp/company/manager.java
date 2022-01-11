@@ -4,9 +4,9 @@ import java.util.HashMap;
 
 public class manager {
 
-    private HashMap<Integer, contract> contracts;
+    private HashMap<String, contract> contracts;
 
-    private manager(){
+    private manager() {
         contracts = new HashMap<>();
     }
 
@@ -19,9 +19,12 @@ public class manager {
     }
 
     public void addContract(String number, String date) {
-        contracts.put(Integer.parseInt(number),new contract(date));
+        contracts.put(number, new contract(date));
     }
-    public HashMap<Integer,contract> getContracts() {
-        return contracts;
+
+    public HashMap<String, contract> getContracts() {
+        {
+            return contracts;
+        }
     }
 }
