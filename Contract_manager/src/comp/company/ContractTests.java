@@ -5,7 +5,8 @@ import org.junit.*;
 import java.util.ArrayList;
 import java.util.List;
 import static comp.company.DocumentType.*;
-
+import java.util.HashMap;
+import java.util.Map;
 
 public class ContractTests extends Assert {
 
@@ -84,5 +85,18 @@ public class ContractTests extends Assert {
 
         assertArrayEquals(payments.toArray(),contractManager.getAll().toArray());
     }
+
+    @Test
+    public void deleteDoc_DeleteDocWithContractNumberNumberAndDate_PaymentsCountEqualsThree(){
+        manager contractManager = manager.create();
+
+        contractManager.addContract("1","20200101");
+        contractManager.registerPaymentDocument(10,1,PaymentOrder,"1","20200101");
+        contractManager.registerPaymentDocument(40,2,BankOrder,"1","20200101");
+        contractManager.registerPaymentDocument(50,3,PaymentOrder,"1","20200101");
+        contractManager.registerPaymentDocument(60,4,PaymentOrder,"1","20200101");
+        contractManager.deleteDoc(3,"1","20200101");
+    assertEquals(3, contractManager.getContracts().get("1").getDocumentCount());
+}
 
 }
