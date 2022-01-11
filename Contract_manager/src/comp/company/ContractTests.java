@@ -5,6 +5,8 @@ import org.junit.*;
 
 import static comp.company.DocumentType.*;
 
+import java.util.ArrayList;
+import java.util.List;
 public class ContractTests extends Assert {
 
     @Test
@@ -44,11 +46,20 @@ public class ContractTests extends Assert {
     @Test
     public void registerPaymentDocument_RegisterPaymentDocumentWithData_DocumentsCountEqualsFour(){
         manager contractManager = manager.create();
-        contractManager.addContract("1","20211218");
+        contractManager.addContract("1","20200101");
         contractManager.registerPaymentDocument(1000,1,PaymentOrder,"1","20200101");
         contractManager.registerPaymentDocument(200,12,BankOrder,"1","20200101");
         contractManager.registerPaymentDocument(500,3,PaymentOrder,"1","20200101");
         contractManager.registerPaymentDocument(100,4,BankOrder,"1","20200101");
         assertEquals(4, contractManager.getContracts().get("1").getDocumentCount());
+    }
+    @Test
+    public void calculationSum_CalculationContractSumOfPayments_SumEquals100(){
+        manager contractManager = manager.create();
+        contractManager.addContract("1","20200101");
+        contractManager.registerPaymentDocument(10,1,PaymentOrder,"1","20200101");
+        contractManager.registerPaymentDocument(20,2,BankOrder,"1","20200101");
+        contractManager.registerPaymentDocument(70,3,PaymentOrder,"1","20200101");
+        assertEquals(100, contractManager.getContracts().get("1").getSumOfPayments());
     }
 }
