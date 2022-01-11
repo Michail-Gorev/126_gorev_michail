@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class manager {
 
-    private HashMap<Integer, com.company.contract> contracts;
+    private HashMap<Integer, contract> contracts;
 
     private manager(){
         contracts = new HashMap<>();
@@ -19,6 +19,6 @@ public class manager {
     }
 
     public void addContract(String number, String date) {
-        contracts.put(Integer.parseInt(number),new com.company.contract(date));
+        contracts.put(Integer.parseInt(number),new contract(date));
     }
 }

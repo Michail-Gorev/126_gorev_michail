@@ -1,4 +1,4 @@
-package com.company;
+package comp.company;
 
 public class document {
 }
