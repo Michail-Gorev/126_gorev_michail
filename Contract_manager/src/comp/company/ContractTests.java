@@ -62,4 +62,26 @@ public class ContractTests extends Assert {
         contractManager.registerPaymentDocument(70,3,PaymentOrder,"1","20200101");
         assertEquals(100, contractManager.getContracts().get("1").getSumOfPayments());
     }
+    @Test
+    public void getList_GetListOfAllPayments_ListEqualsTestList(){
+        manager contractManager = manager.create();
+        contractManager.addContract("1","20200101");
+        contractManager.registerPaymentDocument(10,1,PaymentOrder,"1","20200101");
+        contractManager.registerPaymentDocument(40,2,BankOrder,"1","20200101");
+        contractManager.registerPaymentDocument(60,3,PaymentOrder,"1","20200101");
+        contractManager.addContract("2","20200101");
+        contractManager.registerPaymentDocument(20,4,PaymentOrder,"2","20200101");
+        contractManager.registerPaymentDocument(50,5,BankOrder,"2","20200101");
+        contractManager.registerPaymentDocument(70,6,PaymentOrder,"2","20200101");
+
+        List<Integer> payments = new ArrayList();
+        payments.add(10);
+        payments.add(40);
+        payments.add(60);
+        payments.add(20);
+        payments.add(50);
+        payments.add(70);
+
+        assertArrayEquals(payments,contractManager.getAll());
+    }
 }
