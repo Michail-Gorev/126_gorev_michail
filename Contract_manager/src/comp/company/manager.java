@@ -21,4 +21,7 @@ public class manager {
     public void addContract(String number, String date) {
         contracts.put(Integer.parseInt(number),new contract(date));
     }
+    public HashMap<Integer,contract> getContracts() {
+        return contracts;
+    }
 }

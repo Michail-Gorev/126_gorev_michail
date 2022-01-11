@@ -10,5 +10,8 @@ public class contract {
         this.date = date;
         document = new HashMap<>();
     }
+    public int getDocumentCount() {
+        return document.size();
+    }
 
 }
