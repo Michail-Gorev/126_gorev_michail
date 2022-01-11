@@ -27,4 +27,8 @@ public class manager {
             return contracts;
         }
     }
+    public void registerPaymentDocument(int sum, int paymentDocumentNumber, DocumentType paymentType,
+                                        String contractNumber, String date) {
+        contracts.get(contractNumber).registerPaymentDocument(sum,paymentDocumentNumber,paymentType,date);
+    }
 }

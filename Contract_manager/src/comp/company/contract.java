@@ -13,5 +13,8 @@ public class contract {
     public int getDocumentCount() {
         return document.size();
     }
+    public void registerPaymentDocument(int sum, int number, DocumentType paymentType, String date){
+        document.put(number,new document(sum,paymentType,date));
+    }
 
 }

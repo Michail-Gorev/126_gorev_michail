@@ -3,6 +3,8 @@ package comp.company;
 
 import org.junit.*;
 
+import static comp.company.DocumentType.*;
+
 public class ContractTests extends Assert {
 
     @Test
@@ -12,15 +14,15 @@ public class ContractTests extends Assert {
     }
     @Test
     public void addContract_AddContractsWithNumberAndDate_PaymentDocumentCountEqualsZero(){
-        manager contractPayment = manager.create();
-        contractPayment.addContract("1","20200101");
-        assertEquals(0, contractPayment.getContracts().get(1).getDocumentCount());
+        manager contractManager = manager.create();
+        contractManager.addContract("1","20200101");
+        assertEquals(0, contractManager.getContracts().get(1).getDocumentCount());
     }
 
     @Test
     public void addContract_AddContractWithNumberAndDate_ContractsCountEqualsOne(){
         manager contractManager = manager.create();
-        contractManager.addContract("1","20211218");
+        contractManager.addContract("1","20200101");
         assertEquals(1, contractManager.getContractsCount());
     }
     @Test
@@ -36,7 +38,7 @@ public class ContractTests extends Assert {
     public void registerPaymentDocument_RegisterPaymentDocumentWithData_DocumentsCountEqualsOne(){
         manager contractManager = manager.create();
         contractManager.addContract("1","20211218");
-        contractManager.registerPaymentDocument(100,1010,PaymentOrder,"1","20211219");
+        contractManager.registerPaymentDocument(1000,901,PaymentOrder,"1","20200101");
         assertEquals(1, contractManager.getContracts().get("1").getDocumentCount());
     }
 }
