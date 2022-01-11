@@ -22,7 +22,11 @@ public class contract {
         return document.size();
     }
     public int getSumOfPayments() {
-        return sumOfPayments;
+        int sum = 0;
+        for(document doc : document.values()){
+            sum += doc.getSum();
+        }
+        return sum;
     }
     public HashMap<Integer, document> getDocument(){
         return document;

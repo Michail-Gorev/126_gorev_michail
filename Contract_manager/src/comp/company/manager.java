@@ -3,7 +3,7 @@ package comp.company;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.List;
-
+import java.util.Map;
 public class manager {
 
     private HashMap<String, contract> contracts;
@@ -44,5 +44,13 @@ public class manager {
     }
     public void deleteDoc(int paymentDocumentNum, String contractNum, String paymentDate) {
         contracts.get(contractNum).getDocument().remove(paymentDocumentNum);
+    }
+    public HashMap<String, Integer> getAllContractsWithPay() {
+        HashMap<String,Integer> contractsWithPayments = new HashMap();
+        for (Map.Entry<String,contract> entry: contracts.entrySet()){
+            contractsWithPayments.put(entry.getKey(), entry.getValue().getSumOfPayments());
+        }
+
+        return contractsWithPayments;
     }
 }

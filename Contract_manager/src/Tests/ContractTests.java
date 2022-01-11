@@ -1,6 +1,7 @@
-package comp.company;
+package Tests;
 
 
+import comp.company.manager;
 import org.junit.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -117,17 +118,48 @@ public class ContractTests extends Assert {
         contractManager.registerPaymentDocument(10,1,PaymentOrder,"1","20200101");
         contractManager.registerPaymentDocument(20,2,BankOrder,"1","20200101");
         contractManager.registerPaymentDocument(50,3,PaymentOrder,"1","20200101");
-        contractManager.addContract("2","20211219");
+        contractManager.addContract("2","20200101");
         contractManager.registerPaymentDocument(10,4,PaymentOrder,"2","20200101");
         contractManager.registerPaymentDocument(20,5,BankOrder,"2","20200101");
         contractManager.registerPaymentDocument(50,6,PaymentOrder,"2","20200101");
 
         List<Integer> payments = new ArrayList();
-        payments.add(100);
-        payments.add(200);
-        payments.add(300);
+        payments.add(10);
+        payments.add(20);
+        payments.add(50);
 
         assertArrayEquals(payments.toArray(),contractManager.getContracts().get("1").getListOfDocs().toArray());
     }
 
-}
+    @Test
+    public void getMap_GetMapOfContractsWithSumOfPayments_MapEqualsTestOne(){
+        manager contractManager = manager.create();
+        contractManager.addContract("1","20200101");
+        contractManager.registerPaymentDocument(10,1,PaymentOrder,"1","20200101");
+        contractManager.registerPaymentDocument(20,2,BankOrder,"1","20200101");
+        contractManager.registerPaymentDocument(50,3,PaymentOrder,"1","20200101");
+        contractManager.addContract("2","20200101");
+        contractManager.registerPaymentDocument(10,4,PaymentOrder,"2","20200101");
+        contractManager.registerPaymentDocument(20,5,BankOrder,"2","20200101");
+        contractManager.registerPaymentDocument(50,6,PaymentOrder,"2","20200101");
+
+        List<String> contractsTest = new ArrayList();
+        List<Integer> paymentsTest = new ArrayList();
+        contractsTest.add("1");
+        paymentsTest.add(70);
+        contractsTest.add("2");
+        paymentsTest.add(70);
+
+        HashMap<String,Integer> contractsWithPayments = contractManager.getAllContractsWithPay();
+        List<String> contracts = new ArrayList();
+        List<Integer> payments = new ArrayList();
+
+        for (Map.Entry<String, Integer> entry: contractsWithPayments.entrySet()){
+            contracts.add(entry.getKey());
+            payments.add(entry.getValue());
+        }
+
+        assertArrayEquals(contractsTest.toArray(), contracts.toArray());
+        assertArrayEquals(paymentsTest.toArray(), payments.toArray());
+    }
+    }
