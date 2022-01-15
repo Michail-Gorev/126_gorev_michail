@@ -4,11 +4,14 @@ package contract_manager_tests;
 import contract_manager.Manager;
 import org.junit.*;
 
-import java.awt.*;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 import static contract_manager.DocTypes.*;
+import static contract_manager.Manager.getAllDocumentsWithPays;
 
 public class ContractManagerTests extends Assert {
 
@@ -141,5 +144,37 @@ public class ContractManagerTests extends Assert {
 
         assertArrayEquals(DOCUMENTS.toArray(),document.getDocuments().get("1").getListOfDocuments().toArray());
     }
+    @Test
+    public void getMap_GetMapOfDocumentsWithPays_MapEqualsTestOne(){
+        Manager document = Manager.create();
+        document.addDocument("1","20200101");
+        document.registerDocument(10,1, order, "1","20200101");
+        document.registerDocument(20,2, order, "1","20200101");
+        document.registerDocument(30,3, order, "1","20200101");
+        document.registerDocument(40,4, order, "1","20200101");
+        document.addDocument("2","20200101");
+        document.registerDocument(100,1, order, "2","20200101");
+        document.registerDocument(200,2, order, "2","20200101");
+        document.registerDocument(300,3, order, "2","20200101");
+        document.registerDocument(400,4, order, "2","20200101");
 
+        List<String> docsTest = new ArrayList();
+        List<Integer> paysTest = new ArrayList();
+        docsTest.add("1");
+        paysTest.add(100);
+        docsTest.add("2");
+        paysTest.add(1000);
+
+        HashMap<String,Integer> contractsWithPayments = getAllDocumentsWithPays();
+        List<String> docs = new ArrayList();
+        List<Integer> pays = new ArrayList();
+
+        for (Map.Entry<String, Integer> entry: contractsWithPayments.entrySet()){
+            docs.add(entry.getKey());
+            pays.add(entry.getValue());
+        }
+
+        assertArrayEquals(docsTest.toArray(), docs.toArray());
+        assertArrayEquals(paysTest.toArray(), pays.toArray());
+    }
 }
