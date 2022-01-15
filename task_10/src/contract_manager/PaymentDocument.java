@@ -7,7 +7,7 @@ public class PaymentDocument {
 
     public PaymentDocument(int sum, DocTypes type, String date){
         this.sum = sum;
-        this.date = date;
         this.type = type;
+        this.date = date;
     }
 }
