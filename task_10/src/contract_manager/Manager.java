@@ -16,4 +16,7 @@ public class Manager {
     public void addDocument(String number, String date){
         documents.put(Integer.parseInt(number), new Document(date));
     }
+    public HashMap<Integer, Document> getDocuments(){
+        return documents;
+    }
 }

@@ -26,4 +26,10 @@ public class ContractManagerTests extends Assert {
         document.addDocument("4", "20200101");
         assertEquals(4, document.getDocumentsNumber());
     }
+    @Test
+    public void addDocument_AddDocumentWithFixedNumberAndDate_DocumentsNumberEqualsZero(){
+        Manager document = Manager.create();
+        document.addDocument("1","20200101");
+        assertEquals(0,document.getDocuments().get(1).getDocumentsNumber());
+    }
 }

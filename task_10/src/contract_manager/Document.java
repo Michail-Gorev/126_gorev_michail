@@ -10,4 +10,7 @@ public class Document {
         this.date = date;
         paymentDocuments = new HashMap<>();
     }
+    public int getDocumentsNumber(){
+        return paymentDocuments.size();
+    }
 }
