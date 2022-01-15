@@ -83,9 +83,11 @@ public class ContractManagerTests extends Assert {
         DOCUMENTS.add(10);
         DOCUMENTS.add(20);
         DOCUMENTS.add(30);
+        DOCUMENTS.add(40);
         DOCUMENTS.add(100);
         DOCUMENTS.add(200);
         DOCUMENTS.add(300);
+        DOCUMENTS.add(400);
 
         assertArrayEquals(DOCUMENTS.toArray(),Manager.getAllDocuments().toArray());
     }

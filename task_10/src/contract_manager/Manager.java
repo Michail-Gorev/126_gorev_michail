@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.List;
 public class Manager {
-    private HashMap<String, Document> documents;
+    private static HashMap<String, Document> documents;
 
     private Manager(){
         documents = new HashMap<>();
@@ -34,4 +34,8 @@ public class Manager {
 
         return DOCUMENTS;
     }
+    public void deleteDocument(int DocumentNum, String contractNum, String Date) {
+        documents.get(contractNum).getPaymentDocuments().remove(DocumentNum);
+    }
 }
+
