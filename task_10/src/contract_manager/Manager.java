@@ -2,7 +2,7 @@ package contract_manager;
 
 import java.util.HashMap;
 public class Manager {
-    private HashMap<Integer, Document> documents;
+    private HashMap<String, Document> documents;
 
     private Manager(){
         documents = new HashMap<>();
@@ -14,9 +14,9 @@ public class Manager {
         return documents.size();
     }
     public void addDocument(String number, String date){
-        documents.put(Integer.parseInt(number), new Document(date));
+        documents.put(number, new Document(date));
     }
-    public HashMap<Integer, Document> getDocuments(){
+    public HashMap<String, Document> getDocuments(){
         return documents;
     }
 }

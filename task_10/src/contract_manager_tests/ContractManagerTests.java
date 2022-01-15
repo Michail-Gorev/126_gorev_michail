@@ -4,6 +4,8 @@ import contract_manager.Document;
 import contract_manager.Manager;
 import org.junit.*;
 
+import static contract_manager.DocTypes.order;
+
 public class ContractManagerTests extends Assert {
 
     @Test
