@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 public class Manager {
     private static HashMap<String, Document> documents;
 
@@ -13,6 +14,17 @@ public class Manager {
     public static Manager create(){
         return new Manager();
     }
+
+
+    public static HashMap<String, Integer> getAllDocumentsWithPays() {
+        HashMap<String,Integer> documentsWithPays = new HashMap();
+        for (Map.Entry<String,Document> entry: documents.entrySet()){
+            documentsWithPays.put(entry.getKey(), entry.getValue().getSumOfDocuments());
+        }
+
+        return documentsWithPays;
+    }
+
     public int getDocumentsNumber() {
         return documents.size();
     }
