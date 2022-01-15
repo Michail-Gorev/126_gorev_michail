@@ -46,9 +46,19 @@ public class ContractManagerTests extends Assert {
         Manager document = Manager.create();
         document.addDocument("1","20200101");
         document.registerDocument(100,1, order, "1","20200101");
-        document.registerDocument(200,2, order, "1","20200101");
+        document.registerDocument(200,2, bankdoc, "1","20200101");
         document.registerDocument(300,3, order, "1","20200101");
-        document.registerDocument(400,4, order, "1","20200101");
+        document.registerDocument(400,4, bankdoc, "1","20200101");
         assertEquals(4,document.getDocuments().get("1").getDocumentsNumber());
+    }
+    @Test
+    public void calculationOfSum_CalculationSumOfAllDocuments_SumEquals100(){
+        Manager document = Manager.create();
+        document.addDocument("1","20200101");
+        document.registerDocument(10,1, order, "1","20200101");
+        document.registerDocument(20,2, order, "1","20200101");
+        document.registerDocument(30,3, order, "1","20200101");
+        document.registerDocument(40,4, order, "1","20200101");
+        assertEquals(100,document.getDocuments().get("1").getSumOfDocuments());
     }
 }
