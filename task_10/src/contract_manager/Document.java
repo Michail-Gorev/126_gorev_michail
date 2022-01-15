@@ -1,6 +1,8 @@
 package contract_manager;
-import java.util.HashMap;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 public class Document {
     private String date;
 
@@ -23,5 +25,14 @@ public class Document {
     }
     public HashMap<Integer, PaymentDocument> getPaymentDocuments(){
         return paymentDocuments;
+    }
+
+    public List<Integer> getListOfDocuments() {
+        List<Integer> DOCUMENTS = new ArrayList();
+        for(PaymentDocument Doc : paymentDocuments.values()){
+            DOCUMENTS.add(Doc.getSum());
+        }
+
+        return DOCUMENTS;
     }
 }

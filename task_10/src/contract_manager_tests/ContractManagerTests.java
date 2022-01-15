@@ -139,7 +139,7 @@ public class ContractManagerTests extends Assert {
         DOCUMENTS.add(30);
         DOCUMENTS.add(40);
 
-        assertArrayEquals(DOCUMENTS.toArray(),document.getDocuments().get("1").getListOfDocuments());
+        assertArrayEquals(DOCUMENTS.toArray(),document.getDocuments().get("1").getListOfDocuments().toArray());
     }
 
 }
