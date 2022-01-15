@@ -17,4 +17,13 @@ public class ContractManagerTests extends Assert {
         document.addDocument("1", "20200101");
         assertEquals(1, document.getDocumentsNumber());
     }
+    @Test
+    public void addDocument_AddDocumentWithNumberAndDate_DocumentsNumberEqualsFour() {
+        Manager document = Manager.create();
+        document.addDocument("1", "20200101");
+        document.addDocument("2", "20200101");
+        document.addDocument("3", "20200101");
+        document.addDocument("4", "20200101");
+        assertEquals(4, document.getDocumentsNumber());
+    }
 }
