@@ -19,4 +19,7 @@ public class Manager {
     public HashMap<String, Document> getDocuments(){
         return documents;
     }
+    public void registerDocument(int sum, int documentNumber, DocTypes docTypes, String documentNum, String date) {
+        documents.get(documentNum).registerDocument(sum,documentNumber,docTypes,date);
+    }
 }

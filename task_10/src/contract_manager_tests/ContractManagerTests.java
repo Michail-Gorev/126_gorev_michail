@@ -1,10 +1,10 @@
 package contract_manager_tests;
 
-import contract_manager.Document;
+
 import contract_manager.Manager;
 import org.junit.*;
 
-import static contract_manager.DocTypes.order;
+import static contract_manager.DocTypes.*;
 
 public class ContractManagerTests extends Assert {
 
@@ -32,7 +32,7 @@ public class ContractManagerTests extends Assert {
     public void addDocument_AddDocumentWithFixedNumberAndDate_DocumentsNumberEqualsZero(){
         Manager document = Manager.create();
         document.addDocument("1","20200101");
-        assertEquals(0,document.getDocuments().get(1).getDocumentsNumber());
+        assertEquals(0,document.getDocuments().get("1").getDocumentsNumber());
     }
     @Test
     public void registerDocument_RegisterDocumentWithNumberAndDate_DocumentsNumberEqualsOne(){

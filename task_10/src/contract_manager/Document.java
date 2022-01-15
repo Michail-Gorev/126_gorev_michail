@@ -13,4 +13,7 @@ public class Document {
     public int getDocumentsNumber(){
         return paymentDocuments.size();
     }
+    public void registerDocument(int sum, int number, DocTypes docTypes, String date){
+        paymentDocuments.put(number, new PaymentDocument(sum, docTypes, date));
+    }
 }
