@@ -4,6 +4,10 @@ package contract_manager_tests;
 import contract_manager.Manager;
 import org.junit.*;
 
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
+
 import static contract_manager.DocTypes.*;
 
 public class ContractManagerTests extends Assert {
@@ -60,5 +64,29 @@ public class ContractManagerTests extends Assert {
         document.registerDocument(30,3, order, "1","20200101");
         document.registerDocument(40,4, order, "1","20200101");
         assertEquals(100,document.getDocuments().get("1").getSumOfDocuments());
+    }
+    @Test
+    public void getList_GetListOfAllDocuments_ListEqualsTestOne(){
+        Manager document = Manager.create();
+        document.addDocument("1","20200101");
+        document.registerDocument(10,1, order, "1","20200101");
+        document.registerDocument(20,2, order, "1","20200101");
+        document.registerDocument(30,3, order, "1","20200101");
+        document.registerDocument(40,4, order, "1","20200101");
+        document.addDocument("2","20200101");
+        document.registerDocument(100,1, order, "2","20200101");
+        document.registerDocument(200,2, order, "2","20200101");
+        document.registerDocument(300,3, order, "2","20200101");
+        document.registerDocument(400,4, order, "2","20200101");
+
+        List<Integer> DOCUMENTS = new ArrayList();
+        DOCUMENTS.add(10);
+        DOCUMENTS.add(20);
+        DOCUMENTS.add(30);
+        DOCUMENTS.add(100);
+        DOCUMENTS.add(200);
+        DOCUMENTS.add(300);
+
+        assertArrayEquals(DOCUMENTS.toArray(),Manager.getAllDocuments().toArray());
     }
 }
