@@ -119,4 +119,27 @@ public class ContractManagerTests extends Assert {
         document.deleteDocument(6,"1","20200101");
         assertEquals(0,document.getDocuments().get("1").getDocumentsNumber());
     }
+    @Test
+    public void getPays_GetAllPaysFromDocument_ListEqualsTestOne(){
+        Manager document = Manager.create();
+        document.addDocument("1","20200101");
+        document.registerDocument(10,1, order, "1","20200101");
+        document.registerDocument(20,2, order, "1","20200101");
+        document.registerDocument(30,3, order, "1","20200101");
+        document.registerDocument(40,4, order, "1","20200101");
+        document.addDocument("2","20200101");
+        document.registerDocument(100,1, order, "2","20200101");
+        document.registerDocument(200,2, order, "2","20200101");
+        document.registerDocument(300,3, order, "2","20200101");
+        document.registerDocument(400,4, order, "2","20200101");
+
+        List<Integer> DOCUMENTS = new ArrayList();
+        DOCUMENTS.add(10);
+        DOCUMENTS.add(20);
+        DOCUMENTS.add(30);
+        DOCUMENTS.add(40);
+
+        assertArrayEquals(DOCUMENTS.toArray(),document.getDocuments().get("1").getListOfDocuments());
+    }
+
 }
