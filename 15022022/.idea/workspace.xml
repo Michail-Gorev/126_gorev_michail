@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44604a87-88c0-4422-a209-80bf83dd8878" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_1/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_1/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_2/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_2/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_3/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_3/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_4/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_4/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_5/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_5/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_6/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_6/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_7/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_7/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_8/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_8/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_9/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../protocols/task_9/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_1/lib/Task_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_1/src/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_1/src/Task_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_1/task_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/src/contract_manager/DocTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/src/contract_manager/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/src/contract_manager/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/src/contract_manager/PaymentDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/src/contract_manager_tests/ContractManagerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/src/features.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/target/classes/contract_manager/DocTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/target/classes/contract_manager/Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/target/classes/contract_manager/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/target/classes/contract_manager/PaymentDocument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_10/target/classes/contract_manager_tests/ContractManagerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/lib/Task_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/Task_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/out/production/task_2/task_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/src/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/src/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/src/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/src/Task_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/src/task_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/task_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_2/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/lib/Task_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/out/production/task_3/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/out/production/task_3/Task_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/src/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/src/Task_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/task_3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_3/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/asd asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/asd asd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/lib/Task_4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/out/production/task_4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/out/production/task_4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/out/production/task_4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/out/production/task_4/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/out/production/task_4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/out/production/task_4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/out/production/task_4/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/out/production/task_4/Task_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/out/production/task_4/task_4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/src/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/src/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/src/Task_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/src/task_4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/task_4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_4/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/lib/Task_5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/out/production/task_5/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/out/production/task_5/Task_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/src/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/src/Task_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/task_5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_5/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/lib/Task_6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/out/production/task_6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/out/production/task_6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/out/production/task_6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/out/production/task_6/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/out/production/task_6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/out/production/task_6/task_6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/task/BattleUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/task/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/task/Task_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/task/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/task/WebAddressParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/out/production/task_6/test/Task_6_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/out/production/task_6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/out/production/task_6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/out/production/task_6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/out/production/task_6/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/out/production/task_6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/out/production/task_6/task_6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/task/BattleUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/task/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/task/Task_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/task/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/task/WebAddressParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/src/test/Task_6_Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/task_6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_6/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/lib/Task_6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/out/production/task_7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/out/production/task_7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/out/production/task_7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/out/production/task_7/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/out/production/task_7/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/out/production/task_7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/out/production/task_7/task_7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/task/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/task/Race.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/task/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/task/Task_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/task/Vector2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/task_7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/test/Task_7_Tests$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/out/production/task_7/test/Task_7_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/out/production/task_7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/out/production/task_7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/out/production/task_7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/out/production/task_7/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/out/production/task_7/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/out/production/task_7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/out/production/task_7/task_7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/task/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/task/Race.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/task/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/task/Task_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/task/Vector2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/task_7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/src/test/Task_7_Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/task_7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_7/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/descriptors/Alchemist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/descriptors/ArmorDestroyer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/descriptors/BattleUnit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/descriptors/BattleUnitBase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/descriptors/GameSimulation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/descriptors/Infantryman" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/lib/Task_6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/task/Alchemist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/task/ArmorDestroyer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/task/BattleUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/task/BattleUnitBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/task/Infantryman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/task/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/task/Task_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/task_8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/test/ClassValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/test/ClassValidatorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/test/FunctionalityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/test/FunctionalityTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/test/ObjectsParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/out/production/task_8/test/Task_8_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/task/Alchemist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/task/ArmorDestroyer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/task/BattleUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/task/BattleUnitBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/task/Infantryman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/task/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/task/Task_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/task_8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/test/ClassValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/test/ClassValidatorBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/test/FunctionalityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/test/FunctionalityTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/test/ObjectsParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/src/test/Task_8_Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/task_8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/tests/task.Infantryman" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_8/Горев Михаил.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/descriptors/DoubleLinkedList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/descriptors/DoubleLinkedListItem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/descriptors/DoubleLinkedListSorter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/lib/Task_6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/out/production/task_9/task/DoubleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/out/production/task_9/task/DoubleLinkedListItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/out/production/task_9/task/DoubleLinkedListSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/out/production/task_9/task/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/out/production/task_9/task/Task_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/out/production/task_9/test/ClassValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/out/production/task_9/test/ClassValidatorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/out/production/task_9/test/FunctionalityTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/out/production/task_9/test/Task_9_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/src/task/DoubleLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/src/task/DoubleLinkedListItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/src/task/DoubleLinkedListSorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/src/task/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/src/task/Task_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/src/test/ClassValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/src/test/ClassValidatorBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/src/test/FunctionalityTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/src/test/Task_9_Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/task_9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/Горев Михаил" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task_9/Горев Михаил.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="259FU12Jp8qcQ5YuvHgrPJMUfWa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../basics_of_programming_2021/hw/2sem/task_1/task.txt" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44604a87-88c0-4422-a209-80bf83dd8878" name="Changes" comment="" />
+      <created>1644931409760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644931409760</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90e8b14e-cc29-40fa-8aff-0322a805f53c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../task_2/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../task_2/out/production/task_2/task_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../task_2/src/task_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../task_3/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../task_4/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../task_5/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../task_6/src/task/BattleUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task_2/sd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task_2/sd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task_2/src/Task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../task_2/src/Task_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task_3/src/Task_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../task_3/src/Task_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task_4/src/Task_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../task_4/src/Task_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task_5/src/Task_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../task_5/src/Task_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../task_6/src/task/Task_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../task_6/src/task/Task_6.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="21QNDdEajJB5ZdMi7fMroNl8Ban" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90e8b14e-cc29-40fa-8aff-0322a805f53c" name="Changes" comment="" />
+      <created>1637869232855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637869232855</updated>
+    </task>
+    <servers />
+  </component>
+</project>
