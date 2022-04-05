@@ -23,7 +23,17 @@ public class Task3_Tests extends Assert {
             fail();
         }
     }
-
+    @Test
+        public void quickSort_UnsortedArray1_GetSortedArray(){
+            try {
+                Integer[] arr = new Integer[]{1,2,3,4,5,4,3,2,1};
+                QuickSort quickSort = new QuickSort();
+                quickSort.sort(arr, new TestComparator());
+                assertArrayEquals(new Integer[]{1,1,2,2,3,3,4,4,5}, arr);
+            }catch (Exception e){
+                fail();
+            }
+        }
     @Test
     public void quickSort_UnsortedArray_ArrayIsSorted(){
         try {

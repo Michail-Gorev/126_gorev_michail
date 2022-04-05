@@ -1,3 +1,4 @@
+
 public class Node<T> implements ListNode<T> {
     private ListNode<T> next;
     private ListNode<T> prev;

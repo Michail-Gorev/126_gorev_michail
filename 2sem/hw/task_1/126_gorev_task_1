@@ -1,63 +1,65 @@
-Node    | 13 | this.next = prev;    -> this.next = next;  | pushItems_PushFrontThreeItems_SecondItemIsCorrect
+DynamicArray.java | 11 | size = 1; -> size = DefaultSize; | createArray_CreateArrayWithoutSize_SizeEqualsDefaultSize
 
-Node    | 14 | this.prev = next;    -> this.prev = prev;  | pushItems_PushFrontThreeItems_SecondItemIsCorrect
+DynamicArray.java | 30 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | createArray_TryToGetValueOutOfRange_GetIndexOutOfBoundsException
 
-DynamicArray    | 11 | size = 1;    -> size = DefaultSize;  | createArray_CreateArrayWithoutSize_SizeEqualsDefaultSize
+DynamicArray.java | 35 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | createArray_TryToSetValueOutOfRange_GetIndexOutOfBoundsException
 
-DynamicArray 	| 15 | data = new Object[capacity]; -> data = new Object[size]; | setValues_SetThreeValues_ValuesAreCorrect
+DynamicArray.java | 15 | data = new Object[capacity]; -> data = new Object[size]; | setValues_SetThreeValues_ValuesAreCorrect
 
-DynamicArray    | 21 | if(newSize > 0)  -> if(newSize < 0)  | changeSize_ChangeSizeArray_NewSizeIsCorrect
+DynamicArray.java | 21 | if(newSize > 0) -> if(newSize < 0) | changeSize_ChangeSizeArray_NewSizeIsCorrect
 
-DynamicArray    | 27 | newSize = size;  -> size = newSize;  | changeSize_ChangeSizeArray_NewSizeIsCorrect
+DynamicArray.java | 27 | newSize = size; -> size = newSize; | changeSize_ChangeSizeArray_NewSizeIsCorrect
 
-DynamicArray 	| 30 | if(index < 0 || index > size)    -> if(index < 0 || index >= size)   | createArray_TryToGetValueOutOfRange_GetIndexOutOfBoundsException
+DynamicArray.java | 40 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | insert_TryToInsertValueOutOfRange_GetIndexOutOfBoundsException
 
-DynamicArray    | 35 | if(index < 0 || index > size)    -> if(index < 0 || index >= size)   | createArray_TryToSetValueOutOfRange_GetIndexOutOfBoundsException
+DynamicArray.java | 42 | (capacity < size) {  -> if(capacity <= size) { | insert_InsertValue_ValuesAreCorrect
 
-DynamicArray    | 40 | if(index < 0 || index > size)    -> if(index < 0 || index >= size)   | insert_TryToInsertValueOutOfRange_GetIndexOutOfBoundsException
+DynamicArray.java | 49 | data[size] = value; -> data[index] = value; | insert_InsertValue_ValuesAreCorrect
 
-DynamicArray    | 42 | (capacity < size) {  -> if(capacity <= size) {   | insert_InsertValue_ValuesAreCorrect
+DynamicArray.java | 52 | if(capacity < size) { -> if(capacity <= size) { | pushBack_pushBackValue_ValuesAreCorrect
 
-DynamicArray    | 49 | data[size] = value;  -> data[index] = value;     | insert_InsertValue_ValuesAreCorrect
+DynamicArray.java | 56 | data[capacity] = value; -> data[size] = value; | pushBack_pushBackValue_ValuesAreCorrect
 
-DynamicArray    | 52 | if(capacity < size) {    -> if(capacity <= size) {    | pushBack_pushBackValue_ValuesAreCorrect
+DynamicArray.java | 60 | if(size < 0) -> if(size <= 0) | popBack_popBackFromEmptyArray_GetUnsupportedOperationException
 
-DynamicArray    | 56 | data[capacity] = value;  -> data[size] = value;  | pushBack_pushBackValue_ValuesAreCorrect
-
-DynamicArray    | 60 | if(size < 0)     -> if(size <= 0)    | popBack_popBackFromEmptyArray_GetUnsupportedOperationException
-
-DynamicArray    | 66 | if(index < 0 || index > size)    -> if(index < 0 || index >= size)    | remove_TryRemoveIndexOutOfBounds_GetIndexOutOfBoundsException
-
-DoubleLinkedList | 11 | return dummy == dummy;  -> return size == 0;    | pushFront_PushFrontToEmptyList_EmptyIsFalse
-
-DoubleLinkedList | 17 | return dummy.getPrev();     -> return dummy.getNext();  | pushItems_PushFrontThreeItems_SecondItemIsCorrect
-
-DoubleLinkedList | 20 | return dummy.getNext();     -> return dummy.getPrev();  | pushItems_PushFrontThreeItems_SecondItemIsCorrect
-
-DoubleLinkedList | 24 | if(index < 0 || index > size)   -> if(index < 0 || index >= size)   | pushFront_PushFrontToEmptyList_GetCrushGettingIndexOne
-
-DoubleLinkedList | 28 | cur = cur.getPrev();    -> cur = cur.getNext();     | pushItems_PushFrontThreeItems_SecondItemIsCorrect
-
-DoubleLinkedList | 33 | --size;     -> ++size;      | pushItems_PushFrontThreeItems_SecondItemIsCorrect
-
-DoubleLinkedList | 41 | return insertBefore(getTail(), data);       -> return insertAfter(getTail(), data);     | pushItems_PushFrontThreeItems_SecondItemIsCorrect
-
-DoubleLinkedList | 44 | return insertBefore(getTail(), data);       -> return insertBefore(getHead(), data);   | public void pushItems_PushBackThreeItems_SecondItemIsCorrect
-
-DoubleLinkedList | 47 | node.getPrev().setPrev(node.getNext()); -> node.getPrev().setNext(node.getNext());      | removeItem_RemoveFirstItem_FirstItemIsCorrect
-
-DoubleLinkedList | 48 | node.getNext().setNext(node.getPrev()); -> node.getNext().setPrev(node.getPrev());      | removeItem_RemoveFirstItem_FirstItemIsCorrect
-
-DoubleLinkedList | 55 | list.getHead().setNext(node);           -> list.getHead().setPrev(node);        | insertList_insertListAfterFirstItem_AllItemsAreCorrect
-
-DoubleLinkedList | 56 | list.getTail().setPrev(node.getNext()); -> list.getTail().setNext(node.getNext());      | insertList_insertListAfterFirstItem_AllItemsAreCorrect
-
-DoubleLinkedList | 63 |                  /empty line/                    -> size += list.getSize();      | insertList_insertListAfterFirstItem_SizeIsCorrect
-
-DoubleLinkedList | 68 | list.getHead().setNext(node.getPrev()); -> list.getHead().setPrev(node.getPrev());      | insertList_insertListBeforeFirstItem_AllItemsAreCorrect
-
-DoubleLinkedList | 69 | list.getTail().setPrev(node);           -> list.getTail().setNext(node);        | insertList_insertListBeforeFirstItem_AllItemsAreCorrect
-
-DoubleLinkedList | 76 |                   /empty line/              -> size += list.getSize();      | insertList_insertListBeforeFirstItem_SizeIsCorrect
+DynamicArray.java | 66 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | remove_TryRemoveIndexOutOfBounds_GetIndexOutOfBoundsException
 
 
+Node.java | 13 | this.next = prev; -> this.next = next; | pushItems_PushFrontThreeItems_TailIsCorrect
+
+Node.java | 14 | this.prev = next; -> this.prev = prev; | pushItems_PushFrontThreeItems_TailIsCorrect
+
+
+DoubleLinkedList.java | 11 | return dummy == dummy; -> return size == 0; | pushFront_PushFrontToEmptyList_EmptyIsFalse
+
+DoubleLinkedList.java | 24 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | pushFront_PushFrontToEmptyList_GetCrushGettingIndexOne
+
+DoubleLinkedList.java | 20 | return dummy.getNext(); -> return dummy.getPrev(); | pushItems_PushFrontThreeItems_SecondItemIsCorrect
+
+DoubleLinkedList.java | 41 | return insertBefore(getTail(), data); -> return insertAfter(getTail(), data); | pushItems_PushFrontThreeItems_TailIsCorrect
+
+DoubleLinkedList.java | 17 | return dummy.getPrev(); -> return dummy.getNext(); | pushItems_PushFrontThreeItems_SecondItemIsCorrect
+
+DoubleLinkedList.java | 28 | cur = cur.getPrev(); -> cur = cur.getNext(); | pushItems_PushFrontThreeItems_SecondItemIsCorrect
+
+DoubleLinkedList.java | 33 | --size; -> ++size; | pushItems_PushFrontThreeItems_SecondItemIsCorrect
+
+DoubleLinkedList.java | 44 | return insertBefore(getTail(), data); -> return insertBefore(getHead(), data); | pushItems_PushBackThreeItems_SecondItemIsCorrect
+
+DoubleLinkedList.java | 47 | node.getPrev().setPrev(node.getNext()); -> node.getPrev().setNext(node.getNext()); | removeItem_RemoveFirstItem_FirstItemIsCorrect
+
+DoubleLinkedList.java | 48 | node.getNext().setNext(node.getPrev()); -> node.getNext().setPrev(node.getPrev()); | removeItem_RemoveFirstItem_FirstItemIsCorrect
+
+DoubleLinkedList.java | 59 |  -> size += list.getSize(); | insertList_insertListAfterFirstItem_SizeIsCorrect
+# 59 строчка изначально пустая
+
+DoubleLinkedList.java | 55 | list.getHead().setNext(node); -> list.getHead().setPrev(node); | insertList_insertListAfterFirstItem_AllItemsAreCorrect
+
+DoubleLinkedList.java | 56 | list.getTail().setPrev(node.getNext()); -> list.getTail().setNext(node.getNext()); | insertList_insertListAfterFirstItem_AllItemsAreCorrect
+
+DoubleLinkedList.java | 70 | -> size += list.getSize(); | insertList_insertListBeforeFirstItem_SizeIsCorrect
+# 70 строка изначально пустая
+
+DoubleLinkedList.java | 66 | list.getHead().setNext(node.getPrev()); -> list.getHead().setPrev(node.getPrev()); | insertList_insertListBeforeFirstItem_AllItemsAreCorrect
+
+DoubleLinkedList.java | 67 | list.getTail().setPrev(node); -> list.getTail().setNext(node); | insertList_insertListBeforeFirstItem_AllItemsAreCorrect
