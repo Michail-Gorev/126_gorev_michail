@@ -9,41 +9,25 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void quickSort_UnsortedArrayWithThreeItems_ArrayIsSorted(){
+    public void quickSort_UnsortedArrayWithLengthTwo_ArrayIsSorted(){
         try {
-            Integer[] arr = new Integer[]{3, 0, 1};
-
+            Integer[] arr = new Integer[]{1,0};
             QuickSort quickSort = new QuickSort();
             quickSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{0, 1, 3}, arr);
-
+            assertArrayEquals(new Integer[]{0, 1}, arr);
         }
         catch (Exception e){
             fail();
         }
     }
-    @Test
-        public void quickSort_UnsortedArray1_GetSortedArray(){
-            try {
-                Integer[] arr = new Integer[]{1,2,3,4,5,4,3,2,1};
-                QuickSort quickSort = new QuickSort();
-                quickSort.sort(arr, new TestComparator());
-                assertArrayEquals(new Integer[]{1,1,2,2,3,3,4,4,5}, arr);
-            }catch (Exception e){
-                fail();
-            }
-        }
-    @Test
-    public void quickSort_UnsortedArray_ArrayIsSorted(){
-        try {
-            Integer[] arr = new Integer[]{5, 4, 1, 3, 4};
 
+    @Test
+    public void quickSort_UnsortedArray1_ArrayIsSorted(){
+        try {
+            Integer[] arr = new Integer[]{1,2,3,4,5,4,3,2,1};
             QuickSort quickSort = new QuickSort();
             quickSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{1, 3, 4, 4, 5}, arr);
-
+            assertArrayEquals(new Integer[]{1,1,2,2,3,3,4,4,5}, arr);
         }
         catch (Exception e){
             fail();
@@ -51,15 +35,12 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void mergeSort_UnsortedArrayWithThreeItems_ArrayIsSorted(){
+    public void quickSort_UnsortedArray2_ArrayIsSorted(){
         try {
-            Integer[] arr = new Integer[]{2, 0, 1};
-
-            MergeSort mergeSort = new MergeSort();
-            mergeSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{0, 1, 2}, arr);
-
+            Integer[] arr = new Integer[]{1,3,2,6,4,2,6,3,5,1,2,2,2,5,4,3,1};
+            QuickSort quickSort = new QuickSort();
+            quickSort.sort(arr, new TestComparator());
+            assertArrayEquals(new Integer[]{1,1,1,2,2,2,2,2,3,3,3,4,4,5,5,6,6}, arr);
         }
         catch (Exception e){
             fail();
@@ -67,15 +48,12 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void mergeSort_UnsortedOnlyFirstThreeItems_ArrayIsSorted(){
+    public void mergeSort_UnsortedArrayWithLengthTwo_ArrayIsSorted(){
         try {
-            Integer[] arr = new Integer[]{2, 0, 1, 2, 3};
-
+            Integer[] arr = new Integer[]{2,1};
             MergeSort mergeSort = new MergeSort();
             mergeSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{0, 1, 2, 2, 3}, arr);
-
+            assertArrayEquals(new Integer[]{1, 2}, arr);
         }
         catch (Exception e){
             fail();
@@ -83,15 +61,12 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void mergeSort_UnsortedArray_ArrayIsSorted(){
+    public void mergeSort_UnsortedOnlyFirstTwoElements_ArrayIsSorted(){
         try {
-            Integer[] arr = new Integer[]{2, 0, 3, 1, 2};
-
+            Integer[] arr = new Integer[]{2,1,2,3};
             MergeSort mergeSort = new MergeSort();
             mergeSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{0, 1, 2, 2, 3}, arr);
-
+            assertArrayEquals(new Integer[]{1, 2,2,3}, arr);
         }
         catch (Exception e){
             fail();
@@ -99,15 +74,12 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void mergeSort_AnotherUnsortedArray_ArrayIsSorted(){
+    public void mergeSort_UnsortedArray1_ArrayIsSorted(){
         try {
-            Integer[] arr = new Integer[]{4, 0, 3, 1, 0, 2};
-
+            Integer[] arr = new Integer[]{2,1,3,1};
             MergeSort mergeSort = new MergeSort();
             mergeSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{0, 0, 1, 2, 3, 4}, arr);
-
+            assertArrayEquals(new Integer[]{1, 1,2,3}, arr);
         }
         catch (Exception e){
             fail();
@@ -115,15 +87,25 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void mergeSort_FinalUnsortedArray_ArrayIsSorted(){
+    public void mergeSort_UnsortedArray2_ArrayIsSorted(){
         try {
-            Integer[] arr = new Integer[]{1,0,0,2,0,1,2,2};
-
+            Integer[] arr = new Integer[]{3,1,0,1};
             MergeSort mergeSort = new MergeSort();
             mergeSort.sort(arr, new TestComparator());
+            assertArrayEquals(new Integer[]{0, 1,1,3}, arr);
+        }
+        catch (Exception e){
+            fail();
+        }
+    }
 
+    @Test
+    public void mergeSort_UnsortedArray3_ArrayIsSorted(){
+        try {
+            Integer[] arr = new Integer[]{0,0,1,2,2,1,0,2};
+            MergeSort mergeSort = new MergeSort();
+            mergeSort.sort(arr, new TestComparator());
             assertArrayEquals(new Integer[]{0,0,0,1,1,2,2,2}, arr);
-
         }
         catch (Exception e){
             fail();
@@ -131,15 +113,12 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void heapSort_ArrayContainsOnlySameNumbers_ArrayNotChanges(){
+    public void heapSort_ArrayContainsOnlySameNumbers_NoChanges(){
         try {
-            Integer[] arr = new Integer[]{0, 0, 0};
-
+            Integer[] arr = new Integer[]{0,0,0};
             HeapSort heapSort = new HeapSort();
             heapSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{0, 0, 0}, arr);
-
+            assertArrayEquals(new Integer[]{0,0,0}, arr);
         }
         catch (Exception e){
             fail();
@@ -147,14 +126,12 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void heapSort_SortedArrayThreeItems_ArrayNotChanges(){
+    public void heapSort_SortedArrayLengthTwo_NoChanges(){
         try {
-            Integer[] arr = new Integer[]{0, 1, 2};
-
+            Integer[] arr = new Integer[]{1,2};
             HeapSort heapSort = new HeapSort();
             heapSort.sort(arr, new TestComparator());
-            assertArrayEquals(new Integer[]{0, 1, 2}, arr);
-
+            assertArrayEquals(new Integer[]{1,2}, arr);
         }
         catch (Exception e){
             fail();
@@ -162,15 +139,12 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void heapSort_SortedArrayFiveItems_ArrayNotChanges(){
+    public void heapSort_SortedArrayLengthThree_NoChanges(){
         try {
-            Integer[] arr = new Integer[]{0, 1, 2, 3, 4};
-
+            Integer[] arr = new Integer[]{1,2,3};
             HeapSort heapSort = new HeapSort();
             heapSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{0, 1, 2, 3, 4}, arr);
-
+            assertArrayEquals(new Integer[]{1,2,3}, arr);
         }
         catch (Exception e){
             fail();
@@ -178,15 +152,12 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void heapSort_UnsortedArray_ArrayIsSorted(){
+    public void heapSort_UnsortedArray1_NoChanges(){
         try {
-            Integer[] arr = new Integer[]{3,0,2,3,0,1};
-
+            Integer[] arr = new Integer[]{6,0,3,2,0,6};
             HeapSort heapSort = new HeapSort();
             heapSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{0,0,1,2,3,3}, arr);
-
+            assertArrayEquals(new Integer[]{0,0,2,3,6,6}, arr);
         }
         catch (Exception e){
             fail();
@@ -194,15 +165,12 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void heapSort_AnotherUnsortedArray_ArrayIsSorted(){
+    public void heapSort_UnsortedArray2_NoChanges(){
         try {
-            Integer[] arr = new Integer[]{10, 1, 1, 4, 7, 11, 6, 11, 4, 10};
-
+            Integer[] arr = new Integer[]{5,4,1,2,1,2,6,3,4,1,8,6};
             HeapSort heapSort = new HeapSort();
             heapSort.sort(arr, new TestComparator());
-
-            assertArrayEquals(new Integer[]{1, 1, 4, 4, 6, 7, 10, 10, 11, 11}, arr);
-
+            assertArrayEquals(new Integer[]{1,1,1,2,2,3,4,4,5,6,6,8}, arr);
         }
         catch (Exception e){
             fail();
