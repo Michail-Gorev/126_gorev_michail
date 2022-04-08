@@ -61,7 +61,7 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void mergeSort_UnsortedOnlyFirstTwoElements_ArrayIsSorted(){
+    public void mergeSort_UnsortedOnlyFirstTwoItems_ArrayIsSorted(){
         try {
             Integer[] arr = new Integer[]{2,1,2,3};
             MergeSort mergeSort = new MergeSort();
